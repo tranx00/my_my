@@ -45,6 +45,7 @@
 
     symbols: {
         OPUSDT:  -lm n -sm gs -lev 20 -lw 0.55 -lc configs/my_my/multi/OPUSDT_yanself.json
+        MATICUSDT: -lm n -sm gs -lev 20 -lw 0.55 -lc configs/my_my/multi/MATICUSDT_jnk.json
         1000FLOKIUSDT: -lm n -sm gs -lev 20 -lw 0.55 -lc configs/my_my/multi/1000FLOKIUSDT.json
         1000SHIBUSDT: -lm n -sm gs -lev 25 -lw 0.55 -lc configs/my_my/multi/1000SHIBUSDT_naimul.json
         DOGEUSDT: -lm n -sm gs -lev 25 -lw 0.55 -lc configs/my_my/multi/DOGEUSDT_donewithdollar_8.json 
