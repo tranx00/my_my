@@ -44,10 +44,11 @@
     // -lc str: live config path. Specify live config path to override config from live_configs_dir and default_config_path.
 
     symbols: {
-        OPUSDT: -lm n -sm gs -lev 20 -lw 0.7 -lc configs/my_my/multi/OPUSDT_yanself.json
+        AXSUSDT:  -lm n -sm gs -lev 20 -lw 0.5 -lc configs/my_my/multi/AXSUSDT_yanself.json
+        OPUSDT:  -lm n -sm gs -lev 20 -lw 0.5 -lc configs/my_my/multi/OPUSDT_yanself.json
         1000FLOKIUSDT: -lm n -sm gs -lev 25 -lw 0.5 -lc configs/my_my/multi/1000FLOKIUSDT.json
         1000SHIBUSDT: -lm n -sm gs -lev 25 -lw 0.5 -lc configs/my_my/multi/1000SHIBUSDT_naimul.json
-        DOGEUSDT: -lm n -sm gs -lev 25 -lw 0.5 -lc configs/my_my/multi/DOGEUSDT_donewithdollar_8.json 
+        DOGEUSDT: -lm n -sm gs -lev 25 -lw 0.5 -lc config7s/my_my/multi/DOGEUSDT_donewithdollar_8.json 
         FETUSDT: -lm n -sm gs -lev 20  -lw 0.7 -lc configs/my_my/multi/FETUSDT_donewithdollar_5.json
         INJUSDT: -lm n -sm gs -lev 20 -lw 3 -lc configs/my_my/multi/INJUSDT_mani.json
         RNDRUSDT: -lm n -sm gs -lev 20 -lw 1.15 -lc configs/my_my/multi/RNDRUSDT_mani.json
