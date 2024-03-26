@@ -44,8 +44,8 @@
     // -lc str: live config path. Specify live config path to override config from live_configs_dir and default_config_path.
 
     symbols: {
-        SKLUSDT: -lm n -sm gs -lev 25 -lw 0.5 -lc configs/my_my/multi/SKLUSDT_donewithdollar_A.json
         VETUSDT: -lm n -sm gs -lev 25 -lw 0.5 -lc configs/my_my/multi/VETUSDT_donewithdollar_A.json
+        FTMUSDT: -lm n -sm gs -lev 25 -lw 0.5 -lc configs/my_my/multi/FTMUSDT_2.json
         WAVESUSDT: -lm n -sm gs -lev 25 -lw 0.5 -lc configs/my_my/multi/WAVESUSDT_donewithdollar_A.json
         1000SHIBUSDT: -lm n -sm gs -lev 20 -lw 1 -lc configs/my_my/multi/1000SHIBUSDT_naimul.json
         1000FLOKIUSDT: -lm n -sm gs -lev 20 -lw 1 -lc configs/my_my/multi/1000FLOKIUSDT.json
