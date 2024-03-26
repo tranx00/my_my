@@ -45,6 +45,7 @@
 
     symbols: {
         VETUSDT: -lm n -sm gs -lev 20 -lw 0.55 -lc configs/my_my/multi/VETUSDT_donewithdollar_A.json
+        SKLUSDT: -lm n -sm gs -lev 20 -lw 0.55 -lc configs/my_my/multi/SKLUSDT_donewithdollar_A.json
         WAVESUSDT:  -lm n -sm gs -lev 20 -lw 0.55 -lc configs/my_my/multi/WAVESUSDT_donewithdollar_A.json
         MATICSUSDT:  -lm n -sm gs -lev 20 -lw 0.55 -lc configs/my_my/multi/MATICSUSDT_donewithdollar_A.json
         1000FLOKIUSDT: -lm n -sm gs -lev 20 -lw 0.55 -lc configs/my_my/multi/1000FLOKIUSDT.json
