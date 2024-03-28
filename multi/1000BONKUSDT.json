@@ -3,7 +3,7 @@
   "logging_level": 0,
   "ohlcv": false,
   "long": {
-    "auto_unstuck_delay_minutes":0,
+    "auto_unstuck_delay_minutes": 0,
     "auto_unstuck_ema_dist": 0,
     "auto_unstuck_qty_pct": 0,
     "auto_unstuck_wallet_exposure_threshold": 0,
