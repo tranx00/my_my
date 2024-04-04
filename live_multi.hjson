@@ -4,16 +4,16 @@
 
     // multisym auto unstuck: will use profits from other positions to offset losses realized on stuck positions
     // how much below past peak balance to allow losses (default 1% == 0.01). Set to 0.0 to disable multisym auto unstuck.
-    loss_allowance_pct: 0.01
+    loss_allowance_pct: 0.15
 
     // how far into the past to fetch pnl history
     pnls_max_lookback_days: 30
 
     // if wallet_exposure / wallet_exposure_limit > stuck_threshold: consider position as stuck
-    stuck_threshold: 0.95
+    stuck_threshold: 0.85
 
     // percentage of balance * wallet_exposure_limit to close for each unstucking order (default 1% == 0.01)
-    unstuck_close_pct: 0.01
+    unstuck_close_pct: 0.1
 
     // delay between executions to exchange. Set to 60 to simulate 1m ohlcv backtest.
     execution_delay_seconds: 2
@@ -44,17 +44,17 @@
     // -lc str: live config path. Specify live config path to override config from live_configs_dir and default_config_path.
 
     symbols: {
-        //AGIXUSDT: -lm n -sm gs -lev 25 -lw 1 -lc configs/my_my/multi/AGIXUSDT_donewithdollar_6.json
-        XRPUSDT: -lm n -sm gs -lev 25 -lw 0.7 -lc configs/my_my/multi/XRPUSDT_donewithdollar_8.json 
-        OPUSDT: -lm n -sm gs -lev 25 -lw 1 -lc configs/my_my/multi/OPUSDT_sephral_2.json
-        FTMUSDT: -lm n -sm gs -lev 25 -lw 0.7 -lc configs/my_my/multi/FTMUSDT_2.json
-        VETUSDT: -lm n -sm gs -lev 25 -lw 0.7 -lc configs/my_my/multi/VETUSDT_donewithdollar_A.json
-        1000SHIBUSDT: -lm n -sm gs -lev 25 -lw 0.7 -lc configs/my_my/multi/1000SHIBUSDT_naimul.json
-        1000FLOKIUSDT: -lm n -sm gs -lev 25 -lw 0.5 -lc configs/my_my/multi/1000FLOKIUSDT.json
+        XRPUSDT: -lm n -sm gs -lev 25 -lw 0.4 -lc configs/my_my/multi/XRPUSDT_donewithdollar_8.json 
+        WLDUSDT: -lm n -sm gs -lev 25 -lw 0.4 -lc configs/my_my/multi/WLDUSDT_5.json
+        FTMUSDT: -lm n -sm gs -lev 25 -lw 0.4 -lc configs/my_my/multi/FTMUSDT_2.json
+        ONDOUSDT: -lm n -sm gs -lev 25 -lw 0.4 -lc configs/my_my/multi/FTMUSDT_2.json
+        //VETUSDT: -lm n -sm gs -lev 25 -lw 0.4 -lc configs/my_my/multi/VETUSDT_donewithdollar_A.json
+        1000SHIBUSDT: -lm n -sm gs -lev 25 -lw 0.4 -lc configs/my_my/multi/1000SHIBUSDT_naimul.json
+        1000FLOKIUSDT: -lm n -sm gs -lev 25 -lw 0.4 -lc configs/my_my/multi/1000FLOKIUSDT.json
         DOGEUSDT: -lm n -sm gs -lev 25 -lw 0.7 -lc configs/my_my/multi/DOGEUSDT_donewithdollar_8.json 
-        FETUSDT: -lm n -sm gs -lev 25  -lw 1.5 -lc configs/my_my/multi/FETUSDT_donewithdollar_5.json
-        INJUSDT: -lm n -sm gs -lev 25 -lw 1.35 -lc configs/my_my/multi/INJUSDT_mani.json
-        RNDRUSDT: -lm n -sm gs -lev 25 -lw 1.5 -lc configs/my_my/multi/RNDRUSDT_mani.json
+        FETUSDT: -lm t -sm gs -lev 25  -lw 1.2 -lc configs/my_my/multi/FETUSDT_donewithdollar_5.json
+        INJUSDT: -lm t -sm gs -lev 25 -lw 1.5 -lc configs/my_my/multi/INJUSDT_mani.json
+        RNDRUSDT: -lm t -sm gs -lev 25 -lw 1.2 -lc configs/my_my/multi/RNDRUSDT_mani.json
     }   
 
     // Specify directory containing live configs.
